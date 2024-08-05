@@ -1,7 +1,7 @@
 pipeline {
     agent any
     stages {
-        stage('Test Docker Connection') {
+        stage('Build') {
             steps {
                 script {
                 // This step should not normally be used in your script. Consult the inline help for details.
